@@ -1,0 +1,56 @@
+img.top {width:40px;
+		height:40px;
+	}
+img  {width:140px;
+		height:140px;
+	}
+body {background-color: #cceeff;
+color: green;
+margin:0px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+    
+}
+
+/* visited link */
+a:visited {
+    color: green;
+ text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+        text-decoration: underline;
+
+}
+
+/* selected link */
+a:active {
+    color: blue;
+     text-decoration: underline;
+}
+
+#op a{
+
+	font-size:10px;
+}	
+h1 {
+    -webkit-margin-before: 0em;
+	text-align: center;
+	padding-top:40px;
+	color:green;
+	background-color:red;
+	border-bottom-style:solid;
+	border-bottom-color:yellow;
+	border-bottom-width:5px;
+	border-left-style:none;
+	border-right-style:none;
+	border-top-style:none;
+}
+
+

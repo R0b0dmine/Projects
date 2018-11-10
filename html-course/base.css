@@ -1,0 +1,84 @@
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+
+	
+}
+
+
+
+
+
+
+
+body
+{
+	background-color: lightblue;
+	padding:0px;
+	margin:0px;
+	
+
+}
+#wrapper{
+	background-color: black;
+	color:white;
+	padding: 0px 20px 0px 20px;
+	
+}
+#header{
+	background-color:green;
+	color:white;
+	display:block;
+	clear:both;
+	width:100%;
+	float:right;
+}
+#lewy{
+	background-color: purple;
+	color:white;
+	float:left;
+	width:70%;
+}
+
+#prawy{
+
+
+	background-color: red;
+	color:white;
+	float:right;
+	width:30%;
+	}
+#footer{
+	background-color: yellow;
+	color:black;
+	display:block;
+	padding:10px;
+	clear:both;
+}
+#menu{
+	list-style-type:none;
+	margin:0px;
+	padding:0;
+	overflow:hidden;
+	float: right;
+}
+#menu li{
+	float:left;
+}
+
+
+#menu a{
+	display:block;
+	padding:8px;
+	background-color:white;
+}
+#news p{
+	display:inline;
+}

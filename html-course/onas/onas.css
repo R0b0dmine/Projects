@@ -1,0 +1,24 @@
+
+* {
+margin: 0;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+
+
+
+
+
+
+
+button {
+	padding: 0.5em;
+	margin: 0.25em;
+	border-color: blue;
+	border-width: 2px;
+	border-style: dotted;
+}

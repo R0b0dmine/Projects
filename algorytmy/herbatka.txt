@@ -1,0 +1,11 @@
+1.bierzemy czajnik
+1.5.Nalewamy wode do czajnika 
+2.uruchamiamy proces gotowania wody przez czaajnik
+3.bierzemy torebke herbaty i kubek
+4.czekamy az woda się zagotuje
+5.po zagotowaniu wody wsadzamy torebke do kubka i zalewamy wodą
+6.czekamy 2 minutu
+6.3.bierzemy cytryne
+6.6.wyciskamy z niej sok
+6.9.soki wlewamy do kubka
+6.9.9.herbata gotowa 

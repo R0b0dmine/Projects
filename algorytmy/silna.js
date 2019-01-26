@@ -1,4 +1,24 @@
-function silnia(n)
+function oblicz1(){
+var y,text,silnia;
+
+y = document.getElementById("liczba1").value;
+silnia=silnia1(y);
+text= "silnia liczby "+y+" wynosi: "+silnia;
+document.getElementById("wynik1").innerHTML=text;
+
+
+}
+function oblicz2(){
+var u,text,silnia;
+
+u = document.getElementById("liczba2").value;
+fib=fibbonaci(u);
+text= " liczba fibonnaciego "+u+" wynosi: "+fib;
+document.getElementById("wynik2").innerHTML= document.getElementById("wynik2").innerHTML + "</br>"+text;
+
+}
+
+function silnia1(n)
 {
 var k;
 var licznik = 0;
@@ -13,7 +33,7 @@ var licznik = 0;
 return "impossible";
 }
 	
-function silnia(n)
+function silnia2(n)
 {
 if(n>=0)
 {
@@ -22,7 +42,7 @@ if(n>=0)
 		return 1;
 		}
 		else{
-			return n*silnia(n-1);
+			return n*silnia1(n-1);
 		}
 }	
 	else {
@@ -31,3 +51,25 @@ if(n>=0)
 
 
 }
+
+
+
+
+
+
+function fibbonaci(num){
+var a=1,b=0,temp;
+	
+	while(num>=0){
+		temp=a;
+		a=a+b;
+		b=temp;
+		num--;	
+		document.getElementById("wynik2").innerHTML=document.getElementById("wynik2").innerHTML+"</br>"+b;
+	}
+	return b;
+}
+
+
+
+
